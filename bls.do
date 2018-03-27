@@ -15,7 +15,7 @@ replace quarter=`qtr' if quarter==.
 }
 }
 
-random error
+rand
 
 gen qdate=yq(year ,qtr)
 xtset aaa qdate
